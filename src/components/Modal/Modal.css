@@ -19,7 +19,7 @@
 
 .ModalClosed {
   opacity: 0;
-  transform: translateY(-100%);
+  transform: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {
